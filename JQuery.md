@@ -14,7 +14,7 @@ It does't work for `XML` document.
 - `$()` is an alias of jQuery function.
 - Used to wrap any object into jQuery object which helps to call various methods.
 
-```jquery
+```javascript
 $(document).ready(function(){   # Starting point
 $("p").css("color","pink");
 });
