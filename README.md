@@ -65,3 +65,20 @@ Variables have types | Variables have no types
 Values have types | Values have types
 Variables cannot change type | Variables changes data type 
 
+### Type of NaN
+
+NaN represents Not a Number.
+
+```javascript
+typeof NaN    # Number
+```
+
+### Explain Pass by Value and Pass by Reference
+
+```javascript
+var x = 2;
+```
+
+A Variable `x` is created and assigned it a value `2`, In background the `=` allocates some space in memory. Stores value `2` and returns the location of the allocated memory space.
+
+Variable `x` points to the location of the memory space instead of directly pointing to value `2`.
