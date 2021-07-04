@@ -139,3 +139,7 @@ greet.apply(obj,["Awesome"]);
 - It creates an object based on `HTML` document called `DOM`.
 - Using `DOM` we can manipulate or change various elements inside the `HTML` document.
 
+### What are Generator Functions ?
+
+- A Special Class of Functions
+- They can be stopped `Midway` and then continue from where it had stopped.
