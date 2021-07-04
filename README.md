@@ -15,3 +15,6 @@ var ismale = true                  # Boolean
 var x = null             
 var array = [5, "Hi", true, 7.7]   # Object
 ```
+
+### What is Hoisting ?
+- `Default` bahaviour of Javascript where all the `Variables` and `Functions` declarations are moved on the top. 
