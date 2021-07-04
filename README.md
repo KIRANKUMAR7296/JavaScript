@@ -6,6 +6,10 @@ Javascript can change `HTML` content.
 
 Javascript accepts both double quotes `""` and single quotes `''`.
 
+Javascript is a `Dynamically` typed language.
+
+The type of a variable is checked during `run time`.
+
 ### Data Types
 ```javascript
 var name = "Kirankumar";            # String
@@ -38,4 +42,25 @@ x + y         Output : "33"
 var x = 25
 var y = "Hi"
 x + y         Output : "25Hi"
+```
+
+### Static vs Dynamic Typing
+
+Static typing
+```c#
+string name;
+name = "Kirankumar";
+```
+
+Dynamic typing
+```javascript
+var name;
+name = "Kirankumar";
+name = 7;
+
+Static | Dynamic
+:--- | :---
+Variables have types | Variables have no types
+Values have types | Values have types
+Variables cannot change type | Variables changes data type 
 ```
