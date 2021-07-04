@@ -57,10 +57,11 @@ Dynamic typing
 var name;
 name = "Kirankumar";
 name = 7;
+```
 
 Static | Dynamic
 :--- | :---
 Variables have types | Variables have no types
 Values have types | Values have types
 Variables cannot change type | Variables changes data type 
-```
+
