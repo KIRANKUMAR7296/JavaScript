@@ -83,7 +83,7 @@ A Variable `x` is created and assigned it a value `2`, In background the `=` all
 
 Variable `x` points to the location of the memory space instead of directly pointing to value `2`.
 
-### Explain call(), apply() and bind() methods.
+### Explain call() vs apply() methods.
 
 `call()` : Invokes a method (function) by specifying the object.
 
@@ -98,3 +98,44 @@ greet.call(obj);
 # Output :
 Kirankumar
 ```
+
+`apply()` : Takes Arguments as an array.
+
+```javascript
+function greet(){
+  return "Hello" + this.name;
+}
+
+var obj = {name : "Kirankumar"};
+greet.apply(obj,["Awesome"]);  
+```
+
+### Scope and Scope Chain 
+
+`Global Scope` : All the variables and functions can be accessed from anywhere inside the code.
+
+`Local` or `Function Scope` : All the variables declared inside the function can be only accessed from inside that function.
+
+`Block Scope` : Variables declared using `let` and `const`, can be accessed only inside that block (Inside the `{ }`)
+
+### What are Object Prototype
+
+- A `Prototype` is a Blueprint of an object.
+- Prototype allows us to use `Properties` and `Methods` on an object.
+
+### Memoization
+
+- Form of `Caching` where the return value of Function is cached.
+
+### What is the use of a Constructor function
+
+- Constructor functions are used to create `objects`.
+- Constructor can create multiple instances having similar `properties` and `methods`.
+
+### What is DOM : Document Object Model
+
+- A Programming Interface for `HTML` and `XML` documents.
+- When the browser tries to render `HTML` document.
+- It creates an object based on `HTML` document called `DOM`.
+- Using `DOM` we can manipulate or change various elements inside the `HTML` document.
+
