@@ -10,6 +10,7 @@
 - Javascript can change `HTML` content.
 - Javascript accepts both double quotes `""` and single quotes `''`.
 - Javascript is a `dynamically` typed language (Data type of a variable is checked during `run time`)
+- All the statements in javascript should end with `;` (semicolon)
 
 ### Why do we use JavaScript ?
 
@@ -48,7 +49,7 @@
 </body>
 ```
 
-### Why it should be placed at the bottom of head section ?
+### Why it is better to place <script> at the bottom of <head> section ?
 
 - Because the browser reads the page from top to bottom (line by line)
 - So if the codes are in `<head>` tag, browser will take time to parse code and display contents.
