@@ -7,7 +7,8 @@
 - Most `popular` and `widely` used programming langauge in the world.
 - It's growing `faster` than any other programming langauge.
 - It is used for both `front-end` and `back-end` development.
-- Javascript can change `HTML` content.
+- Javascript is all about `behaviour` (e.g. How your web page behave when you hover mouse over an element)
+- Javascript can change `HTML` content and properties (e.g. Show or Hide, Change color or size)
 - Javascript accepts both double quotes `""` and single quotes `''`.
 - Javascript is a `dynamically` typed language (Data type of a variable is checked during `run time`)
 - All the statements in javascript should end with `;` (semicolon)
@@ -69,10 +70,12 @@ var ismale = true;                  # Boolean
 var x = null;             
 var array = [5, "Hi", true, 7.7];   # Object
 ```
-  
+
 ### What is Separation of concern ? 
 
-- Javascript should be written in seperate page with `.js` extension.
+- Javascript code should be written in seperate page with `.js` extension.
+- In same way CSS is also written on another page it is just called on html page.
+- It helps to keep the page clean. 
  
 ### What is Hoisting ?
 - `Default` bahaviour of Javascript where all the `Variables` and `Functions` declarations are moved on the top. 
