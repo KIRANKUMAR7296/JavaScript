@@ -13,9 +13,22 @@
 
 ### Why do we use JavaScript ?
 
-- First javascript was only used in browser to build interactive web pages.
-- But now web and mobile apps as well as real time networking apps (social media) can be created using javascript.
-- Real time networking (Apps that need internet connection : YouTube, Instagram, Facebook, etc)
+- First javascript was only used in browser to build `interactive web pages`
+- But now `web` and `mobile` apps as well as `real time networking apps` (social media) can be created using javascript.
+- Real time networking (Apps that runs only on internet connection : YouTube, Instagram, Facebook, etc)
+- Now javascripts are also used for creating `games`
+
+### Where does JavaScript runs ?
+
+- Javascript was orignally designed for running only on `browsers`
+- So every browser has a `javascipt engine` that executes javascripts.
+- But later javascript engine was embedded inside c++ and was named `node js` which can be used outside browsers.
+- node js includes Google's javascript engine because of which we can build web and mobile apps.
+
+### What is ECMA ?
+
+- ECMA defines `standards` and `specifications`
+- Now it is called as `ES6`, it defines many new features for javascript.
 
 ### Data Types
 ```javascript
