@@ -30,6 +30,24 @@
 - ECMA defines `standards` and `specifications`
 - Now it is called as `ES6`, it defines many new features for javascript.
 
+### Where should we write JavaScript codes ?
+
+- Javascripts are written inside `<script>` tag.
+- It can be written inside `<head>` tag or `<body>` tag.
+- But the best place to write javascript code is at the end of `<body>` section (After all elements)
+
+```html
+<body>
+<h1>Heading</h1>
+<div>...</div>
+...
+...
+<script>
+  All the javascript codes should be written at the end of body.
+</script>
+</body>
+```
+
 ### Data Types
 ```javascript
 var name = "Kirankumar";            # String
