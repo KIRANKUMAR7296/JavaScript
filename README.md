@@ -75,16 +75,12 @@ let array = [5, "Hi", true, 7.7];   # Object
 ### How to check data type of variable ?
 
 ```javascript
-typeof name 
-typeof age
-typeof isMale
-typeof mail
-
-Output :
-"string"
-"number"
-"boolean"
-"undefined"
+                   Outputs :
+typeof name        "string"  
+typeof age         "number"
+typeof isMale      "boolean"
+typeof mail        "undefined"
+typeof x           "object" 
 ```
 
 ### How to declare a constant in JavaScript ?
