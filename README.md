@@ -1,4 +1,4 @@
-<p align=right><a href="https://github.com/KIRANKUMAR7296/Javascript/blob/main/JQuery">JQuery</a></p>
+<p align=right><a href="https://github.com/KIRANKUMAR7296/Javascript/blob/main/JQuery.md">JQuery</a></p>
 
 # JavaScript
 
