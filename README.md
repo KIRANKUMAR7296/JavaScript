@@ -85,7 +85,6 @@ let person = {                      # Object {key : value}
 };
 
 // Access values 
-
 1. Dot Notation
 person.name 
 person.age
@@ -95,13 +94,14 @@ person['name']
 person['age']
 
 // Update values
-
 person['name'] = 'Kiran';
 person.age = 26;
 ---------------------------------------------------------
 function greet(){                   # Function
-
+  console.log('Hello World');
 }
+
+* No need to end the function declaration with ';' semicolon.
 
 # Call a function
 greet();
