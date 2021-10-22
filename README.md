@@ -59,8 +59,6 @@
 - Javascript code consists of some functions that interacts with elements on page, so it takes time to read.
 - but there are certain exceptions that dominates to keep the `<scripts>` in `<head>` section.
 
-
-
 ### Data types in JavaScript
   
 ```javascript
@@ -71,7 +69,11 @@ var ismale = true;                  # Boolean
 var x = null;             
 var array = [5, "Hi", true, 7.7];   # Object
 ```
+  
+### What is Separation of concern ? 
 
+- Javascript should be written in seperate page with `.js` extension.
+ 
 ### What is Hoisting ?
 - `Default` bahaviour of Javascript where all the `Variables` and `Functions` declarations are moved on the top. 
 
