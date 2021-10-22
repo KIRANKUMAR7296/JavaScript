@@ -62,14 +62,21 @@
 We can declare variable using a keyword `var` or `let` 
   
 ```javascript
-Primitive | Value types
------------------------------------------------------
-let name = "Kirankumar";            # String literal
-let age = 25;                       # Number literal
-let ismale = true;                  # Boolean literal 
-let mail;                           # Undefined
+A. Primitive | Value types
 
-Reference type
+1. String
+let name = "Kirankumar";            
+
+2. Number
+let age = 25;                       # 
+
+3. Boolean
+let ismale = true;
+
+4. Undefined
+let mail;  
+
+B. Reference type
 -----------------------------------------------------
 let x = null;                       # Object
 let array = [5, "Hi", true, 7.7];   # Object (Heterogeneous : Mixed values of different data types)
