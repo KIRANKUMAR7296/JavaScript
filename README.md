@@ -72,12 +72,17 @@ let mail;                           # Undefined
 Reference type
 -----------------------------------------------------
 let x = null;                       # Object
-let array = [5, "Hi", true, 7.7];   # Object
+let array = [5, "Hi", true, 7.7];   # Object (Heterogeneous : Mixed values of different data types)
+let colors = ['R', 'G', 'B'];       # Object (Homogeneous : Values of only one data type)
 
-let person = {                      # Object {key : value} 
+// Access Values (Values are accessed or updated using index locations)
+colors[0]
+colors[3] = 'Y'
+
+let person = {                      # Object {key : value}  
   name : 'Kirankumar',
   age : 30
-}
+};
 
 // Access values 
 
@@ -91,8 +96,15 @@ person['age']
 
 // Update values
 
-person['name'] = 'Kiran'
-person.age = 26
+person['name'] = 'Kiran';
+person.age = 26;
+---------------------------------------------------------
+function greet(){                   # Function
+
+}
+
+# Call a function
+greet();
 ```
 
 ### How to check data type of variable ?
