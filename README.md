@@ -58,23 +58,45 @@
 - but there are certain exceptions that dominates to keep the `<script>` in `<head>` section.
 
 ### Data types in JavaScript
-  
-```javascript
-var name = "Kirankumar";            # String
-var age = 25;                       # Number | Integer
-var weight = 70.5;                  # Number | Float
-var ismale = true;                  # Boolean
-var x = null;             
-var array = [5, "Hi", true, 7.7];   # Object
-```
-  
+
 We can declare variable using a keyword `var` or `let` 
   
+```javascript
+Primitive | Value types
+
+let name = "Kirankumar";            # String literal
+let age = 25;                       # Number literal
+let ismale = true;                  # Boolean literal 
+let mail;                           # Undefined
+let x = null;                       # NULL
+let array = [5, "Hi", true, 7.7];   # Object
+```
+
+### How to check data type of variable ?
+
+```javascript
+typeof name 
+typeof age
+typeof isMale
+typeof mail
+
+Output :
+"string"
+"number"
+"boolean"
+"undefined"
+```
+
 ### How to declare a constant in JavaScript ?
   
 ```javscript
 const pi = 3.14
 ```
+
+### Static vs Dynamic language ?
+
+- `Static` : We declare the variable with it's data type and it cannot be changed further.
+- `Dynamic` : We don't need to declare variable with data type and it can change it's value at the runtime.
 
 ### What is Separation of concerns ? 
 
