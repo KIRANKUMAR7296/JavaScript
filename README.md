@@ -54,7 +54,7 @@
 - Because the browser reads the page from top to bottom (line by line)
 - So if the codes are in `<head>` tag, browser will take time to parse code and display contents.
 - User will feel that the browser is loading `slow` and it will create a bad user experience.
-- Therefore it should be places at the end so that browser will load the contents first and then will parse js.
+- Therefore it should be placed at the end, then browser will load the `contents` first and then will parse js.
 - Javascript code consists of some functions that interacts with elements on page, so it takes time to read.
 - but there are certain exceptions that dominates to keep the `<scripts>` in `<head>` section.
 
