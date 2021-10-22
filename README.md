@@ -15,7 +15,7 @@
 ### Why do we use JavaScript ?
 
 - First javascript was only used in browser to build `interactive web pages`
-- But now `web` and `mobile` apps as well as `real time networking apps` (social media) can be created using javascript.
+- Now `web`, `mobile` and `real time networking` apps (social media) are created using javascript.
 - Real time networking (Apps that runs only on internet connection : YouTube, Instagram, Facebook, etc)
 - Now javascripts are also used for creating `games`
 
