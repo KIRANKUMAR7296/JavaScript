@@ -164,8 +164,8 @@ const pi = 3.14
 ```javascript
 var x = 2;
 var y = "2";
-`x == y`    # Return True since x and y are same.
-`x === y`   # Return False since typeof x is "Number" and typeof y is "String".
+`x == y`       // Return true since x and y are same.
+`x === y`      // Return false since typeof x is "Number" and typeof y is "String".
 ```
 ### Implicit Type Coercion in Javascript
 - `Automatic` conversion of value from one data type to another.
@@ -173,11 +173,13 @@ var y = "2";
 ```javascript
 var x = 3;
 var y = "3";
-x + y         Output : "33"
+x + y         
+// Output : "33"
 
 var x = 25
 var y = "Hi"
-x + y         Output : "25Hi"
+x + y         
+// Output : "25Hi"
 ```
 
 ### Static vs Dynamic Typing
@@ -206,7 +208,7 @@ Variables cannot change type | Variables changes data type
 NaN represents Not a Number.
 
 ```javascript
-typeof NaN    # Number
+typeof NaN      // Number
 ```
 
 ### Explain Pass by Value and Pass by Reference
@@ -277,5 +279,5 @@ greet.apply(obj,["Awesome"]);
 
 ### What are Generator Functions ?
 
-- A Special Class of Functions
-- They can be stopped `Midway` and then continue from where it had stopped.
+- A special `class` of functions.
+- They can be stopped `midway` and then continue from where it had stopped.
