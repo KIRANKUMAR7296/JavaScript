@@ -11,6 +11,7 @@
 - Javascript accepts both double quotes `""` and single quotes `''`.
 - Javascript is a `dynamically` typed language (Data type of a variable is checked during `run time`)
 - All the statements in javascript should end with `;` (semicolon)
+- `//` (double forward slash) represents `comments` in javascript. 
 
 ### Why do we use JavaScript ?
 
