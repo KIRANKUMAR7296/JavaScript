@@ -58,7 +58,7 @@
 - User will feel that the browser is loading `slow` and it will create a bad user experience.
 - Therefore it should be placed at the end, then browser will load the `contents` first and then will parse js.
 - Javascript code consists of some functions that interacts with elements on page, so it takes time to read.
-- but there are certain exceptions that dominates to keep the `<scripts>` in `<head>` section.
+- but there are certain exceptions that dominates to keep the `<script>` in `<head>` section.
 
 ### Data types in JavaScript
   
@@ -72,6 +72,12 @@ var array = [5, "Hi", true, 7.7];   # Object
 ```
   
 We can declare variable using a keyword `var` or `let` 
+  
+### How to declare a constant in JavaScript ?
+  
+```javscript
+const pi = 3.14
+```
 
 ### What is Separation of concerns ? 
 
