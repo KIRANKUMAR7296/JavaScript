@@ -41,17 +41,14 @@
 
 ```html
 <body>
-<h1>Heading</h1>
-<div>...</div>
-...
-...
-<script>
-  All the javascript codes should be written at the end of body.
-</script>
+  <h1>Heading</h1>
+  <div>...</div>
+  
+  <script>All the javascript codes should be written at the end of body.</script>
 </body>
 ```
 
-### Why it is better to place <script> at the bottom of <head> section ?
+### Why it is better to place <script/> at the bottom of head section ?
 
 - Because the browser reads the page from top to bottom (line by line)
 - So if the codes are in `<head>` tag, browser will take time to parse code and display contents.
