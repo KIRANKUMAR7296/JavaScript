@@ -115,7 +115,6 @@ function greet(firstName, lastName){
 // Call a function
 greet(firstName='Kirankumar', lastName='Yadav');
 
-
 function square(number){
   return number * number
 }
