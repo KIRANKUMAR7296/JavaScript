@@ -74,6 +74,11 @@ var array = [5, "Hi", true, 7.7];   # Object
 ### What is Separation of concerns ? 
 
 - Javascript code should be written in seperate page with `.js` extension.
+
+```javascript
+<script src='index.js'></script>  
+```
+  
 - In same way CSS is also written on another page it is just called on html page.
 - It helps to keep the page clean. 
  
