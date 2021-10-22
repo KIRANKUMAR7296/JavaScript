@@ -75,7 +75,7 @@ let array = [5, "Hi", true, 7.7];   # Object
 ### How to check data type of variable ?
 
 ```javascript
-                   Outputs :
+Data type :        Outputs :
 typeof name        "string"  
 typeof age         "number"
 typeof isMale      "boolean"
