@@ -62,9 +62,9 @@
 We can declare variable using a keyword `var` or `let` 
   
 ```javascript
-A. Primitive | Value types
+A.Primitive | Value types
 
-1. String
+1.String
 let name = "Kirankumar";            
 
 2. Number
