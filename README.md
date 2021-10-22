@@ -1,6 +1,6 @@
 <p align=right><a href="https://github.com/KIRANKUMAR7296/Javascript/blob/main/JQuery">JQuery</a></p>
 
-# Javascript
+# JavaScript
 
 Programming language of the `Web`.
 
