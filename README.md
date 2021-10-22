@@ -82,9 +82,9 @@ B.Reference type
 1.Object
 let x = null;     
 
-# List Array
-let array = [5, "Hi", true, 7.7];   # Heterogeneous : Mixed values of different data types.
-let colors = ['R', 'G', 'B'];       # Homogeneous : Values of only one data type.
+// List Array
+let array = [5, "Hi", true, 7.7];  // Heterogeneous : Mixed values of different data types.
+let colors = ['R', 'G', 'B'];      // Homogeneous : Values of only one data type.
 
 // Access or Update ( Values are accessed or updated using index locations )
 colors[0]
@@ -97,11 +97,11 @@ let person = {
 };
 
 // Access or Update
-# Dot Notation
+A.Dot Notation
 person.name 
 person.name = 'Kiran'
 
-# Bracket Notation
+B.Bracket Notation
 person['age']
 person['age'] = 26
 
@@ -112,7 +112,7 @@ function greet(firstName, lastName){
 
 * No need to end the function declaration with ';' semicolon.
 
-# Call a function
+// Call a function
 greet(firstName='Kirankumar', lastName='Yadav');
 
 
