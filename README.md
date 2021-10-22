@@ -63,13 +63,36 @@ We can declare variable using a keyword `var` or `let`
   
 ```javascript
 Primitive | Value types
-
+-----------------------------------------------------
 let name = "Kirankumar";            # String literal
 let age = 25;                       # Number literal
 let ismale = true;                  # Boolean literal 
 let mail;                           # Undefined
-let x = null;                       # NULL
+
+Reference type
+-----------------------------------------------------
+let x = null;                       # Object
 let array = [5, "Hi", true, 7.7];   # Object
+
+let person = {                      # Object {key : value} 
+  name : 'Kirankumar',
+  age : 30
+}
+
+// Access values 
+
+1. Dot Notation
+person.name 
+person.age
+
+2. Bracket Notation
+person['name']
+person['age']
+
+// Update values
+
+person['name'] = 'Kiran'
+person.age = 26
 ```
 
 ### How to check data type of variable ?
