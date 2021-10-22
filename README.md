@@ -61,7 +61,8 @@
 
 
 
-### Data Types
+### Data types in JavaScript
+  
 ```javascript
 var name = "Kirankumar";            # String
 var age = 25;                       # Number | Integer
