@@ -2,15 +2,20 @@
 
 # JavaScript
 
-Programming language of the `Web`.
+### What is JavaScript ?
 
-Javascript can change `HTML` content.
+- Most `popular` and `widely` used programming langauge in the world.
+- It's growing `faster` than any other programming langauge.
+- It is used for both `front-end` and `back-end` development.
+- Javascript can change `HTML` content.
+- Javascript accepts both double quotes `""` and single quotes `''`.
+- Javascript is a `dynamically` typed language (Data type of a variable is checked during `run time`)
 
-Javascript accepts both double quotes `""` and single quotes `''`.
+### Why do we use JavaScript ?
 
-Javascript is a `Dynamically` typed language.
-
-The type of a variable is checked during `run time`.
+- First javascript was only used in browser to build interactive web pages.
+- But now web and mobile apps as well as real time networking apps (social media) can be created using javascript.
+- Real time networking (Apps that need internet connection : YouTube, Instagram, Facebook, etc)
 
 ### Data Types
 ```javascript
