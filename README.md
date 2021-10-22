@@ -67,51 +67,59 @@ A.Primitive | Value types
 1.String
 let name = "Kirankumar";            
 
-2. Number
+2.Number
 let age = 25;                       # 
 
-3. Boolean
+3.Boolean
 let ismale = true;
 
-4. Undefined
+4.Undefined
 let mail;  
 
-B. Reference type
+B.Reference type
 -----------------------------------------------------
-let x = null;                       # Object
-let array = [5, "Hi", true, 7.7];   # Object (Heterogeneous : Mixed values of different data types)
-let colors = ['R', 'G', 'B'];       # Object (Homogeneous : Values of only one data type)
+1.Object
+let x = null;     
 
-// Access Values (Values are accessed or updated using index locations)
+# List Array
+let array = [5, "Hi", true, 7.7];   # Heterogeneous : Mixed values of different data types.
+let colors = ['R', 'G', 'B'];       # Homogeneous : Values of only one data type.
+
+// Access or Update ( Values are accessed or updated using index locations )
 colors[0]
 colors[3] = 'Y'
 
-let person = {                      # Object {key : value}  
+# Dictionary Array {key : value}
+let person = {                  
   name : 'Kirankumar',
   age : 30
 };
 
-// Access values 
+// Access or Update
 1. Dot Notation
 person.name 
-person.age
+person.name = 'Kiran'
 
 2. Bracket Notation
-person['name']
 person['age']
+person['age'] = 26
 
-// Update values
-person['name'] = 'Kiran';
-person.age = 26;
----------------------------------------------------------
-function greet(){                   # Function
-  console.log('Hello World');
+2.Function
+function greet(firstName, lastName){                   
+  console.log('Hello ' + firstName + ' ' + lastName);
 }
 
 * No need to end the function declaration with ';' semicolon.
 
 # Call a function
-greet();
+greet(firstName='Kirankumar', lastName='Yadav');
+
+
+function square(number){
+  return number * number
+}
+
+square(2)
 ```
 
 ### How to check data type of variable ?
