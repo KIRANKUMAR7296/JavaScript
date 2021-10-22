@@ -62,8 +62,9 @@
 We can declare variable using a keyword `var` or `let` 
   
 ```javascript
+-------------------------------------------------------------
 A.Primitive | Value types
-
+-------------------------------------------------------------
 1.String
 let name = "Kirankumar";            
 
@@ -75,9 +76,9 @@ let ismale = true;
 
 4.Undefined
 let mail;  
-
+-------------------------------------------------------------
 B.Reference type
------------------------------------------------------
+-------------------------------------------------------------
 1.Object
 let x = null;     
 
@@ -96,13 +97,14 @@ let person = {
 };
 
 // Access or Update
-1. Dot Notation
+# Dot Notation
 person.name 
 person.name = 'Kiran'
 
-2. Bracket Notation
+# Bracket Notation
 person['age']
 person['age'] = 26
+
 
 2.Function
 function greet(firstName, lastName){                   
