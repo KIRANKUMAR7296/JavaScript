@@ -70,6 +70,8 @@ var ismale = true;                  # Boolean
 var x = null;             
 var array = [5, "Hi", true, 7.7];   # Object
 ```
+  
+We can declare variable using a keyword `var` or `let` 
 
 ### What is Separation of concerns ? 
 
