@@ -43,13 +43,13 @@ Attribute | `$('\[src]');` | Select entity using attribute assigned to element.
 
 Selector | Description
 :--- | :---
-$('\*') | Select `all` elements or tags.
-$('div.first') | Select first `<div>` element.
-$('ul li:first') | Select first `<li>` tag of first `<ul>`   
-$('ul li:first-child') | Select first `<li>` element of every `<ul>`
-$('ul li:eq(2)') | Select second `<li>` element of every `<ul>`
-$('ul li:nth-child(2)') | Select nth child `<li>` of every parent `<ul>` tag.
-$('ul li:even') | Select all `<li>` at even indexes.
+`$('\*')` | Select `all` elements or tags.
+`$('div.first')` | Select first `<div>` element.
+`$('ul li:first')` | Select first `<li>` tag of first `<ul>`   
+`$('ul li:first-child')` | Select first `<li>` element of every `<ul>`
+`$('ul li:eq(2)')` | Select second `<li>` element of every `<ul>`
+`$('ul li:nth-child(2)')` | Select nth child `<li>` of every parent `<ul>` tag.
+`$('ul li:even')` | Select all `<li>` at even indexes.
 
 ![jQuery](Image/Event.png)
 
