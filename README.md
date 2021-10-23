@@ -168,13 +168,17 @@ const pi = 3.14
 
 ### Difference between "==" and "==="
 
+- `==` compares only `values` not there data type.
+- `===` compares `data type` and `values` of both the operands.
+
 ```javascript
 var x = 2;
 var y = "2";
-`x == y`       // Return true since x and y are same.
+`x == y`       // Return true since x and y are converted to same data type and then compared.
 `x === y`      // Return false since typeof x is "Number" and typeof y is "String".
 ```
-### Implicit Type conversion in JavaScript
+### Implicit type coercion in JavaScript
+
 - `Automatic` conversion of value from one data type to another.
 
 ```javascript
@@ -188,6 +192,11 @@ var y = "Hi"
 x + y         
 // Output : "25Hi"
 ```
+`Boolean` coercion. 
+- All values except `0`, `0.0`, `''`, `""`, `null`, `undefined` and `NaN` returns `true`
+- `OR` ( `||` ) returns true if first value is true. 
+- `AND` ( `&&` ) returns true only if both are true.
+
 
 ### Static vs Dynamic Typing
 
