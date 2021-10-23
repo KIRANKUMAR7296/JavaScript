@@ -9,7 +9,7 @@
 
 Terms which are used in HTML, CSS, JavaScript and jQuery.
 
-![Terms](Image/HTML.svg)
+![Terms](Image/Element.png)
 
 ### Features of jQuery 
 
