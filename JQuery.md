@@ -24,7 +24,7 @@
 - Jquery comes with a lot of predefined `effect` and `animation` methods.
 - Improves the performance and user experience of a web page.
 
-5. AJAX
+`AJAX`
 - Provide simple methods to communicate with `servers` ( send and receive data )
 
 ![jQuery](Image/jQuery.png)
