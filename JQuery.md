@@ -1,4 +1,4 @@
-### JQuery
+# JQuery
 
 - `Fast` and `Lightweight` client side JavaScript library.
 - `Well written` JavaScript Code.
