@@ -43,9 +43,9 @@ Attribute | $('\[src]'); | Select entity using attribute assigned to element.
 
 Selector | Description
 :--- | :---
-$('\*') | Select all elements or tags.
-$('div.first') | Select first <div> element.
-$('ul li:first') | Select first <li> tag of first <ul>.   
+$('\*') | Select `all` elements or tags.
+$('div.first') | Select first `<div>` element.
+$('ul li:first') | Select first `<li>` tag of first `<ul>`   
 
 
 ![jQuery](Image/Event.png)
