@@ -7,8 +7,6 @@
 - Cross browser compatibility ( Work similar across all `browsers` )
 - `JavaScript` writes a long line of code for same function which `jQuery` can easily call just by importing library.
 
-Terms which are used in HTML, CSS, JavaScript and jQuery.
-
 ![Terms](Image/Element.png)
 
 ### Features of jQuery 
