@@ -32,12 +32,12 @@
 ### What are Selectors ?
 ![jQuery](Image/jQuery.png)
 
-Selector | Description
+Name | Selector | Description
 :--- | :---
-Element : $('p'); | Select entity using HTML tags.
-Class : $('.card'); | Select entity using CSS class.
-ID : $('#Id'); | Select entity using ID assigned to element.
-Attribute : $('\[src]'); | Select entity using attribute assigned to element.
+Element | $('p'); | Select entity using HTML tags.
+Class | $('.card'); | Select entity using CSS class.
+ID | $('#Id'); | Select entity using ID assigned to element.
+Attribute | $('\[src]'); | Select entity using attribute assigned to element.
 
 ![jQuery](Image/Event.png)
 
