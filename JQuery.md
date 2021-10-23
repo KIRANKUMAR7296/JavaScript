@@ -1,9 +1,9 @@
-# JQuery
+# jQuery
 
-- Jquery is a `fast`, `easy` and `feature rich` javascript library.
-- `Javascript` is a language and `jQuery` is a `library`.
-- `Jquery` simplifies javascript, animations, ajax and DOM.
-- `Jquery` only works for `HTML` document and do not works for `XML` document.
+- `jQuery` is a `fast`, `easy` and `feature rich` JavaScript library.
+- `JavaScript` is an interpreted language and `jQuery` is a `library` of `JavaScript`
+- `jQuery` simplifies JavaScript, animations, AJAX and DOM.
+- `jQuery` only works for `HTML` document and do not works for `XML` document.
 - Cross browser compatibility ( Work similar across all `browsers` )
 
 ### Features of jQuery 
@@ -17,8 +17,9 @@
 - It can easily change the design of a web page defined by CSS.
 
 `Event Handling`
-- Users
-- Using Jquery we can trigger each events across all browsers.
+- User actions on a webpage are called `events`
+- jQuery provides simple methods to attach `event handlers` to selected elements.
+- jQuery can trigger each events on the web page.
 
 `Effects` and `Animations`
 - Jquery comes with a lot of predefined `effect` and `animation` methods.
@@ -201,3 +202,10 @@ Here html tag is a root node and head and body tags are it's element nodes.
 ### `animate()` method
 
 - Apply custom `animation effect` to elements.
+
+### What is jQuery each method ?
+
+- The `each()` method allows us to loop through arrays and objects on web pages.
+- It can loop through number of DOM objects from the same selector.
+- e.g if we want to add a width = '600' to all images,
+- Then we can select all images and add width to each image tag by using `each()`
