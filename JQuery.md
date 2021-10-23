@@ -230,3 +230,26 @@ Here html tag is a root node and head and body tags are it's element nodes.
 - It can loop through number of DOM objects from the same selector.
 - e.g if we want to add a width = '600' to all images,
 - Then we can select all images and add width to each image tag by using `each()`
+
+### How to get and set attribute values ?
+
+```javascript
+// Get attribute value.
+$('selector').attr('attribute_name');
+
+// Set attribute value.
+$('selector').attr('attribute_name', 'value');
+
+// Set multiple attribute values.
+$('selector').attr({'attribute_name' : 'value', 'attribute_name' : 'value', 'attribute_name' : 'value'});
+```      
+
+### Attribute Functions
+
+Functions | Description
+:--- | :---
+removeAttr('attribute_name') | Remove attribute from selected element. 
+hasClass('class_name') | Check if class is present in selected element.
+addClass('class_name') | Add a class to selected element.
+removeClass('class_name') | Remove class from selected element.
+toggleClass('class_name') | Adds the class if not present and removes the class if present.
