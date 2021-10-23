@@ -8,6 +8,8 @@
 
 It does't work for `XML` document.
 
+![jQuery](Image/jQuery.png)
+
 ### What is $() in JQuery ?
 
 - `$()` is an alias of jquery `function`
