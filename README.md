@@ -65,26 +65,26 @@ We can declare variable using a keyword `var` or `let`
   
 ```javascript
 -------------------------------------------------------------------------------------------
-A.Primitive | Value types
+// A.Primitive | Value types
 -------------------------------------------------------------------------------------------
-1.String
+// 1.String
 let name = "Kirankumar";            
 
-2.Number
+// 2.Number
 let age = 25;                       # 
 
-3.Boolean
+// 3.Boolean
 let ismale = true;
 
-4.Undefined
+// 4.Undefined
 let mail;  
 
-5.Null
+// 5.Null
 let x = null;
 -------------------------------------------------------------------------------------------
-B.Reference type
+// B.Reference type
 -------------------------------------------------------------------------------------------
-1.Object : Collection of data     
+// 1.Object : Collection of data     
 
 // List Array
 let array = [5, "Hi", true, 7.7];  // Heterogeneous : Mixed values of different data types.
@@ -94,27 +94,27 @@ let colors = ['R', 'G', 'B'];      // Homogeneous : Values of only one data type
 colors[0]
 colors[3] = 'Y'
 
-# Dictionary Array {key : value}
+// Dictionary Array {key : value}
 let person = {                  
   name : 'Kirankumar',
   age : 30
 };
 
 // Access or Update
-A.Dot Notation
+// A.Dot Notation
 person.name 
 person.name = 'Kiran'
 
-B.Bracket Notation
+// B.Bracket Notation
 person['age']
 person['age'] = 26
 
-2.Function
+// 2.Function
 function greet(firstName, lastName){                   
   console.log('Hello ' + firstName + ' ' + lastName);
 }
 
-* No need to end the function declaration with ';' semicolon.
+// * No need to end the function declaration with ';' semicolon.
 
 // Call a function
 greet(firstName='Kirankumar', lastName='Yadav');
@@ -122,7 +122,6 @@ greet(firstName='Kirankumar', lastName='Yadav');
 function square(number){
   return number * number
 }
-
 square(2)
 ```
 
