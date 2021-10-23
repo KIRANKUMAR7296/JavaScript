@@ -9,18 +9,18 @@
 
 ### What are features of jQuery ?
 
-1. HTML / DOM manipulation
+`HTML` manipulation
 - Jquery easily navigate throughout the structure of web page.
 - It can easily change the web page contents, behaviours and DOM elements.
 
-2. CSS manipulation
-- Supports CSS3 selectors and inline CSS manilpulation.
+`CSS` manipulation
+- Supports CSS3 `selectors` and inline CSS manilpulation.
 - It can easily change the design of a web page defined by CSS.
 
-3. Event Handling
+`Event Handling`
 - Using Jquery we can trigger each events across all browsers.
 
-4. Effects and Animations
+`Effects` and `Animations`
 - Jquery comes with a lot of predefined `effect` and `animation` methods.
 - Improves the performance and user experience of a web page.
 
