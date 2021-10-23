@@ -18,9 +18,10 @@
 - It can easily change the design of a web page defined by CSS.
 
 `Event Handling`
-- User actions on a webpage are called `events`
+- User actions ( `Click`, `Hover`, `Double click`, `Key press`, etc ) on a webpage are called `events`
 - jQuery provides simple methods to attach `event handlers` to selected elements.
 - jQuery can trigger each events on the web page.
+- When an even is triggered event handler is called.
 
 `Effects` and `Animations`
 - Jquery comes with a lot of predefined `effect` and `animation` methods.
