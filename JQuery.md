@@ -1,10 +1,31 @@
 # JQuery
 
-- `Fast`, `easy` and `feature rich` client side JavaScript library.
-- `JavaScript` is a language while `JQuery` is a built in `Library`.
-- `JQuery` simplifies javascript, animations, ajax and DOM.
-- Cross platform and supports different types of `Browsers`.
-- `jQuery` only works for `HTML` document and not for `XML` document.
+- Jquery is a `fast`, `easy` and `feature rich` javascript library.
+- `Javascript` is a language while `jQuery` is a builtin `library`.
+- `Jquery` simplifies javascript, animations, ajax and DOM.
+- `Jquery` only works for `HTML` document and not for `XML` document.
+- Cross browser compatibility ( Work similar across all `browsers` )
+- `Jqery` is open source and free to use.
+
+### What are features of jQuery ?
+
+1. HTML / DOM manipulation
+- Jquery easily navigate throughout the structure of web page.
+- It can easily change the web page contents, behaviours and DOM elements.
+
+2. CSS manipulation
+- Supports CSS3 selectors and inline CSS manilpulation.
+- It can easily change the design of a web page defined by CSS.
+
+3. Event Handling
+- Using Jquery we can trigger each events across all browsers.
+
+4. Effects and Animations
+- Jquery comes with a lot of predefined `effect` and `animation` methods.
+- Improves the performance and user experience of a web page.
+
+5. AJAX
+- Provide simple methods to communicate with `servers` ( send and receive data )
 
 ![jQuery](Image/jQuery.png)
 
