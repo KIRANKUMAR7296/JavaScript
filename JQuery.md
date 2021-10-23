@@ -1,12 +1,9 @@
 # JQuery
 
-- `Fast` and `feature rich` client side JavaScript library.
+- `Fast`, `easy` and `feature rich` client side JavaScript library.
 - `JavaScript` is a language while `JQuery` is a built in `Library`.
 - Cross platform and supports different types of `Browsers`.
-- Makes websites more `interactive` and `attractive`.
-- `jQuery` only works for `HTML` document.
-
-It does't work for `XML` document.
+- `jQuery` only works for `HTML` document, it does't work for `XML` document.
 
 ![jQuery](Image/jQuery.png)
 
