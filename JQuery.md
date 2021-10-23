@@ -36,7 +36,7 @@ $("p").css("color","pink");
 
 ### css() method
 
-- Used to `get` or `set` style properties or values for selected elements.
+- Used to `get` or `set` style properties or values for selected elements, tags or class.
 
 ### What is a CDN
 
@@ -49,6 +49,7 @@ $("p").css("color","pink");
 
 ```javascript
 \\ CDN : Source code link which we copy directly from it's official website
+
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 ```
 
