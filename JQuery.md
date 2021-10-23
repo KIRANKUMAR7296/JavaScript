@@ -69,7 +69,7 @@ Similar to `javascript`
 6. function : Block of code written to perform a specific task.
    // Function without argument.
    let sum(){
-   return 2 + 3;
+      return 2 + 3;
    }
    
    // Calling a function
@@ -77,9 +77,26 @@ Similar to `javascript`
    
    // Function with arguments.
    let sum(a, b){
-   return a + b;
+      return a + b;
    }
    sum(2, 3);
+   
+   // Self invoking function
+   (sum(){
+      return 2 + 3;
+   })();
+   
+   // Scope
+   Local scope :
+   sum(){
+      var i = 1;
+   }
+   
+   Global scope:
+   var i = 1;
+   sum(){
+      return 2 + 3
+   }
 ```
 
 ### What is a CDN
@@ -97,6 +114,20 @@ Similar to `javascript`
 \\ CDN : jQuery library link which we copy directly from it's official website
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+```
+
+### What is Javascript callback function in Jquery ?
+
+- A callback function is also called as higher order function. 
+- A function that is passed to another function as a `parameter`
+- A callback function executes only after the base function is executed.
+
+```javascript
+$("#id").click(function(){
+   // block of code
+});
+
+// Here first the click function is executed than the called function is executed.
 ```
 
 ### Effects methods used in JQuery
