@@ -71,27 +71,27 @@ $("p").css("color","pink");
 Similar to `javascript`
 
 ```javascript
-1. atring :  Series of characters enclosed in single or double quotes.
+// 1. string :  Series of characters enclosed in single or double quotes.
    let info = "This is a string";
    var message = 'This is a string';
    
-2. number : All numerical formats ( Integer or floating point number )
+// 2. number : All numerical formats ( Integer or floating point number )
    var age = 25; let weight = 55.5;
    
-3. boolean : A logical entity.    
+// 3. boolean : A logical entity.    
    let isSingle = true; 
    let isFather = false;
 
-4. Null : Implies nothing as a value.
+// 4. Null : Implies nothing as a value.
    var money = null;   
    
-5. undefined : A variable with no assigned value.
+// 5. undefined : A variable with no assigned value.
    var money;
    
-6. object : Variable that can hold more than one values : Array, list and dictionaries.   
+// 6. object : Variable that can hold more than one values : Array, list and dictionaries.   
    let names = ['Kiran', 'Datta', 25, 35];
    
-7. function : Block of code written to perform a specific task.
+// 7. function : Block of code written to perform a specific task.
    // Function without argument.
    let sum(){
       return 2 + 3;
