@@ -167,7 +167,7 @@ var y = "2";
 `x == y`       // Return true since x and y are same.
 `x === y`      // Return false since typeof x is "Number" and typeof y is "String".
 ```
-### Implicit Type Coercion in Javascript
+### Implicit Type conversion in JavaScript
 - `Automatic` conversion of value from one data type to another.
 
 ```javascript
