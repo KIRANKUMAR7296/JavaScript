@@ -298,3 +298,5 @@ greet.apply(obj,["Awesome"]);
 
 - A special `class` of functions.
 - They can be stopped `midway` and then continue from where it had stopped.
+
+<a href="https://www.interviewbit.com/javascript-interview-questions/">Interviewbit JavaScript Questions</a>
