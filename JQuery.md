@@ -6,7 +6,7 @@
 - `Jquery` only works for `HTML` document and not for `XML` document.
 - Cross browser compatibility ( Work similar across all `browsers` )
 
-### What are features of jQuery ?
+### Features of jQuery 
 
 `HTML` manipulation
 - Jquery easily navigate throughout the structure of web page.
