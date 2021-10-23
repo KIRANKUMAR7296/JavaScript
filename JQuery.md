@@ -5,6 +5,7 @@
 - `jQuery` simplifies JavaScript, animations, AJAX and DOM.
 - `jQuery` only works for `HTML` document and do not works for `XML` document.
 - Cross browser compatibility ( Work similar across all `browsers` )
+- `JavaScript` writes a long line of code for same function which `jQuery` can easily call just by importing library.
 
 ### Features of jQuery 
 
