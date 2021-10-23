@@ -14,6 +14,10 @@
 - All the statements in javascript should end with `;` (semicolon)
 - `//` (double forward slash) represents `comments` in javascript. 
 
+Terms which are used in HTML, CSS, JavaScript and jQuery.
+
+![Terms](Image/HTML.svg)
+
 ### Why do we use JavaScript ?
 
 - First javascript was only used in browser to build `interactive web pages`
