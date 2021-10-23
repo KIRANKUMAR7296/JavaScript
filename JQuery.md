@@ -7,6 +7,10 @@
 - Cross browser compatibility ( Work similar across all `browsers` )
 - `JavaScript` writes a long line of code for same function which `jQuery` can easily call just by importing library.
 
+Terms which are used in HTML, CSS, JavaScript and jQuery.
+
+![Terms](Image/HTML.svg)
+
 ### Features of jQuery 
 
 `HTML` manipulation
@@ -14,21 +18,20 @@
 - It can easily change the web page contents, behaviours and elements.
 
 `CSS` manipulation
-- Supports CSS3 `selectors` and inline CSS manilpulation.
-- It can easily change the design of a web page defined by CSS.
+- Supports CSS `selectors` and inline CSS manilpulation.
+- It can easily change the design of a web page defined by `CSS`
 
 `Event Handling`
 - User actions ( `Click`, `Hover`, `Double click`, `Key press`, etc ) on a webpage are called `events`
 - jQuery provides simple methods to attach `event handlers` to selected elements.
-- jQuery can trigger each events on the web page.
-- When an even is triggered event handler is called.
+- jQuery can `trigger` each events on the web page, when an even is triggered event handler is called.
 
 `Effects` and `Animations`
-- jQuery comes with a lot of predefined `effect` and `animation` methods.
-- Improves the performance and user experience of a web page.
+- jQuery comes with a lot of predefined `effects` and `animations` 
+- Improves the performance and `UX` ( user experience ) of a web page.
 
 `AJAX`
-- Provide simple methods to communicate with `servers` ( send and receive data )
+- Provide simple methods to communicate with `server's` ( send request and receive data )
 
 ### What are Selectors ?
 ![jQuery](Image/jQuery.png)
@@ -38,7 +41,7 @@ Name | Selector | Description
 Element | `$('p');` | Select entity using `HTML` tags.
 Class | `$('.card');` | Select entity using `CSS` class.
 ID | `$('#Id');` | Select entity using `ID` assigned to element.
-Attribute | `$('\[src]');` | Select entity using attribute assigned to element.
+Attribute | `$('\[src]');` | Select entity using `attribute` assigned to element.
 
 ### Advance Selector
 
