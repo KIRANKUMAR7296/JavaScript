@@ -130,6 +130,31 @@ $("#id").click(function(){
 // Here first the click function is executed than the called function is executed.
 ```
 
+### JQuery - Javascript builtin functions
+
+```javascript
+// Number methods :
+1. toFixed() : Returns a number with fixed decimal places.
+2. toString() : Convert a number to string.
+
+// String methods :
+1. toLowerCase() : Convert string to lower case.
+2. toUpperCase() : Convert string to Upper case.
+3. charAt() : Return character at specified index.
+4. concat() : Join 2 or more strings.
+5. indexOf() : Return index of passed value.
+6. length() : Return string length.
+7. slice() : Return a subset of string.
+8. split() : Return array of strings.
+
+// Array method :
+1. forEach() : Calls a function for each element of array.
+2. join() : Join all elements of array to form a string.
+3. filter() : Filters based on condition and returns string.
+4. reverse() : Invert the index of arrays.
+5. sort() : Sort the elements of array.
+```   
+
 ### Effects methods used in JQuery
 
 1. `show()` : Display selected elements.
@@ -139,6 +164,29 @@ $("#id").click(function(){
 5. `fadeout()` : Fades out the selected elements.
 6. `fadeToggle()` : Toggle between `fadein()` and `fadeout()` methods.
 7. `delay()` : Delay the executions of functions in the queue.
+
+### What is DOM ?
+
+- Document Object Model : Defines a logical structure of document.
+- How the document can be accessed and manipulated.
+- `DOM`is a tree of objects : Roots, nodes, elements and attributes.
+- Browser creates a `DOM` when a web page is loaded.
+- `DOM` can be easily accessed and manipulated using `javascript` and `jquery`
+
+```html
+<!DOCTYPE html>
+<html>                             
+   <head>
+      <title>Page title</title>
+   </head>
+   <body>
+      <p>First Paragraph</p>
+      <p>Second Paragraph</p>
+   </body>
+</html>
+
+Here html tag is a root node and head and body tags are it's element nodes.
+```
 
 ### html() method
 
