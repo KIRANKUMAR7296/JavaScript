@@ -82,7 +82,7 @@ Similar to `javascript`
    let isSingle = true; 
    let isFather = false;
 
-4. NULL - Implies nothing as a value.
+4. Null : Implies nothing as a value.
    var money = null;   
    
 5. undefined : A variable with no assigned value.
