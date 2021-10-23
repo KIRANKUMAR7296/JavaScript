@@ -10,7 +10,7 @@
 ### Features of jQuery 
 
 `HTML` manipulation
-- Jquery easily navigate throughout the structure of web page.
+- jQuery easily navigate throughout the structure of web page.
 - It can easily change the web page contents, behaviours and elements.
 
 `CSS` manipulation
@@ -24,7 +24,7 @@
 - When an even is triggered event handler is called.
 
 `Effects` and `Animations`
-- Jquery comes with a lot of predefined `effect` and `animation` methods.
+- jQuery comes with a lot of predefined `effect` and `animation` methods.
 - Improves the performance and user experience of a web page.
 
 `AJAX`
@@ -140,7 +140,7 @@ Similar to `javascript`
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 ```
 
-### What is Javascript callback function in Jquery ?
+### What is Javascript callback function in jQuery ?
 
 - A callback function is also called as higher order function. 
 - A function that is passed to another function as a `parameter`
@@ -154,7 +154,7 @@ $("#id").click(function(){
 // Here first the click function is executed than the called function is executed.
 ```
 
-### JQuery - Javascript builtin functions
+### jQuery - Javascript builtin functions
 
 ```javascript
 // Number methods :
