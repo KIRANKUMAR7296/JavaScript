@@ -1,11 +1,10 @@
 # JQuery
 
 - Jquery is a `fast`, `easy` and `feature rich` javascript library.
-- `Javascript` is a language while `jQuery` is a builtin `library`.
+- `Javascript` is a language and `jQuery` is a `library`.
 - `Jquery` simplifies javascript, animations, ajax and DOM.
 - `Jquery` only works for `HTML` document and not for `XML` document.
 - Cross browser compatibility ( Work similar across all `browsers` )
-- `Jqery` is open source and free to use.
 
 ### What are features of jQuery ?
 
