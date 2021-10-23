@@ -160,7 +160,7 @@ const pi = 3.14
 - It helps to keep the page clean. 
  
 ### What is Hoisting ?
-- `Default` bahaviour of Javascript where all the `Variables` and `Functions` declarations are moved on the top. 
+- `Default` bahaviour of `JavaScript` where all the `variables` and `functions` declarations are moved on the top. 
 
 ### Difference between "==" and "==="
 
