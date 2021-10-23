@@ -16,7 +16,7 @@
 
 Terms which are used in HTML, CSS, JavaScript and jQuery.
 
-![Terms](Image/HTML.svg)
+![Terms](Image/Element.png)
 
 ### Why do we use JavaScript ?
 
