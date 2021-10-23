@@ -17,6 +17,7 @@
 - It can easily change the design of a web page defined by CSS.
 
 `Event Handling`
+- Users
 - Using Jquery we can trigger each events across all browsers.
 
 `Effects` and `Animations`
@@ -188,15 +189,15 @@ $("#id").click(function(){
 Here html tag is a root node and head and body tags are it's element nodes.
 ```
 
-### html() method
+### `html()` method
 
 - Change the entire content of the selected elements.
 - It replaces the selected element contents with new contents.
 
-### css() method
+### `css()` method
 
-- Used to `get` or `set` style properties or values for selected elements, tags or class.
+- Used to `access` or `manipulate` style properties or values of the selected elements, tags or class.
 
-### animate() method
+### `animate()` method
 
 - Apply custom `animation effect` to elements.
