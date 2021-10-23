@@ -41,12 +41,16 @@ $("p").css("color","pink");
 ### What is a CDN
 
 - Content delivery network or Content distribution network.
-- Large distributed system.
 - It provides files from servers at high bandwidth that leads to faster loading time.
 - There are several companies that provide free public CDN's. (`Google`, `Microsoft` and `Yahoo`)
-- Reduces the load from the Server (Saves Bandwidth)
 - `Microsoft` loads jQuery from `AJAX` CDN.
 - `Google` loads jQuery from Google libraries `API`.
+- e.g. We use JavaScript, CSS, Bootstrap and JQuery CDN links instead of downloading the zip files.
+
+```javascript
+\\ CDN : Source code link which we copy directly from it's official website
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+```
 
 ### animate() method
 
