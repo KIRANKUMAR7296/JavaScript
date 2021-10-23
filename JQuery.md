@@ -39,6 +39,15 @@ Class | $('.card'); | Select entity using CSS class.
 ID | $('#Id'); | Select entity using ID assigned to element.
 Attribute | $('\[src]'); | Select entity using attribute assigned to element.
 
+### Advance Selector
+
+Selector | Description
+:--- | :---
+$('\*') | Select all elements or tags.
+$('div.first') | Select first <div> element.
+$('ul li:first') | Select first <li> tag of first <ul>.   
+
+
 ![jQuery](Image/Event.png)
 
 ### What is $() in JQuery ?
