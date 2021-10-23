@@ -41,6 +41,47 @@ $("p").css("color","pink");
 });
 ```
 
+### Data types 
+
+Similar to `javascript`
+
+```javascript
+1. atring :  Series of characters enclosed in single or double quotes.
+   let info = "This is a string";
+   var message = 'This is a string';
+   
+2. number : All numerical formats ( Integer or floating point number )
+   var age = 25; let weight = 55.5;
+   
+3. boolean : A logical entity.    
+   let isSingle = true; 
+   let isFather = false;
+
+4. object : NULL - Implies nothing as a value.
+   var money = null;   
+
+   Object : Variable that can hold more than one values : Array, list and dictionaries.   
+   let names = ['Kiran', 'Datta', 25, 35];
+   
+5. undefined : A variable with no assigned value.
+   var money;
+   
+6. function : Block of code written to perform a specific task.
+   // Function without argument.
+   let sum(){
+   return 2 + 3;
+   }
+   
+   // Calling a function
+   sum();
+   
+   // Function with arguments.
+   let sum(a, b){
+   return a + b;
+   }
+   sum(2, 3);
+```
+
 ### What is a CDN
 
 - Content delivery network or Content distribution network.
