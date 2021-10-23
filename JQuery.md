@@ -237,6 +237,14 @@ Here html tag is a root node and head and body tags are it's element nodes.
 
 - Apply custom `animation effect` to elements.
 
+```javascript
+$(selector).animate(params, speed, callback);
+
+params : CSS properties to be manipulated during animation.
+speed : number of seconds.
+callback : Operation to be performed.
+```
+
 ### What is jQuery each method ?
 
 - The `each()` method allows us to loop through arrays and objects on web pages.
