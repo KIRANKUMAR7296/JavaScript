@@ -42,6 +42,23 @@ $("p").css("color","pink");
 });
 ```
 
+### What is a CDN
+
+- Content delivery network or Content distribution network.
+- It provides files from servers that loads faster.
+- `Google` and `Microsoft` provides free public CDN's. 
+- `Microsoft` loads jquery from `AJAX` CDN.
+- `Google` loads jQuery from Google libraries `API`.
+- e.g. Javascript, CSS, Bootstrap and JQuery libraries CDN links are available.
+- We can directly embbed the link of those CDN libraries directly from official website.
+- But it requires real time internet connection, so we download the zip files.
+
+```javascript
+\\ CDN : jQuery library link which we copy directly from it's official website
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+```
+
 ### Effects methods used in JQuery
 
 1. `show()` : Display selected elements.
@@ -60,21 +77,6 @@ $("p").css("color","pink");
 ### css() method
 
 - Used to `get` or `set` style properties or values for selected elements, tags or class.
-
-### What is a CDN
-
-- Content delivery network or Content distribution network.
-- It provides files from servers at high bandwidth that leads to faster loading time.
-- There are several companies that provide free public CDN's. (`Google`, `Microsoft` and `Yahoo`)
-- `Microsoft` loads jQuery from `AJAX` CDN.
-- `Google` loads jQuery from Google libraries `API`.
-- e.g. We use JavaScript, CSS, Bootstrap and JQuery libraries CDN links instead of downloading the zip files.
-
-```javascript
-\\ CDN : jQuery library link which we copy directly from it's official website
-
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-```
 
 ### animate() method
 
