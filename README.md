@@ -64,7 +64,6 @@
 We can declare variable using a keyword `var` or `let` 
   
 ```javascript
-
 // A.Primitive | Value types
 
 // 1.String
@@ -81,9 +80,10 @@ let mail;
 
 // 5.Null
 let x = null;
--------------------------------------------------------------------------------------------
+
+
 // B.Reference type
--------------------------------------------------------------------------------------------
+
 // 1.Object : Collection of data     
 
 // List Array
