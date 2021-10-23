@@ -11,7 +11,7 @@
 
 `HTML` manipulation
 - Jquery easily navigate throughout the structure of web page.
-- It can easily change the web page contents, behaviours and DOM elements.
+- It can easily change the web page contents, behaviours and elements.
 
 `CSS` manipulation
 - Supports CSS3 `selectors` and inline CSS manilpulation.
