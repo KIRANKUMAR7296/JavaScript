@@ -187,7 +187,7 @@ $("#id").click(function(){
 // All the effects take two parameters
 $(selector).effect(speed, callback)
 
-speed : number of seconds ( slow or fast ) 
+speed : number of seconds ( "slow" or "fast" ) 
 callback : function or operation to be performed after effect.
 ```
 
@@ -241,7 +241,7 @@ Here html tag is a root node and head and body tags are it's element nodes.
 $(selector).animate(params, speed, callback);
 
 params : CSS properties to be manipulated during animation.
-speed : number of seconds.
+speed : number of seconds, "slow" or "fast"
 callback : Operation to be performed.
 ```
 
