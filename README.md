@@ -145,8 +145,8 @@ const pi = 3.14
 
 ### Static vs Dynamic language ?
 
-- `Static` : We declare the variable with it's data type and it cannot be changed further.
-- `Dynamic` : We don't need to declare variable with data type and it can change it's value at the runtime.
+- `Static` : We declare the `variables` with `data type` and cannot be changed further.
+- `Dynamic` : We don't need to declare variable with data type and we can `change` values at the runtime.
 
 ### What is Separation of concerns ? 
 
@@ -197,7 +197,6 @@ x + y
 - `OR` ( `||` ) returns true if first value is true. 
 - `AND` ( `&&` ) returns true only if both are true.
 
-
 ### Static vs Dynamic Typing
 
 Static typing
@@ -221,8 +220,10 @@ Variables cannot change type | Variables changes data type
 
 ### Type of NaN
 
-NaN represents Not a Number.
-
+- `NaN` represents not a number.
+- Data type of NaN is a `number`
+- `isNaN()` is used to check if a value is `NaN`
+ 
 ```javascript
 typeof NaN      // Number
 ```
