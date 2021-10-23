@@ -78,11 +78,13 @@ let ismale = true;
 
 4.Undefined
 let mail;  
+
+5.Null
+let x = null;
 -------------------------------------------------------------------------------------------
 B.Reference type
 -------------------------------------------------------------------------------------------
-1.Object
-let x = null;     
+1.Object : Collection of data     
 
 // List Array
 let array = [5, "Hi", true, 7.7];  // Heterogeneous : Mixed values of different data types.
