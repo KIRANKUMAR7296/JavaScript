@@ -179,15 +179,27 @@ $("#id").click(function(){
 5. sort() : Sort the elements of array.
 ```   
 
-### Effects methods used in JQuery
+### Effect methods used in jQuery
 
-1. `show()` : Display selected elements.
-2. `hide()` : Hide selected elements.
-3. `toggle()` : Toggle between two methods.
-4. `fadein()` : Fades in selected elements.
-5. `fadeout()` : Fades out the selected elements.
-6. `fadeToggle()` : Toggle between `fadein()` and `fadeout()` methods.
-7. `delay()` : Delay the executions of functions in the queue.
+`jQuery` offers predefined effects which can be directly used on web pages.
+
+```javascript
+// All the effects take two parameters
+$(selector).effect(speed, callback)
+
+speed : number of seconds ( slow or fast ) 
+callback : function or operation to be performed after effect.
+```
+
+Method | Description 
+:--- | :---
+`show() / hide()` | Hide and show selected element.
+`toggle()` | Toggle between two methods.
+`slideUp() / slideDown()` | Slide up and down the selected element.
+`slideToggle()` | Toggle between `slideUp()` and `slideDown()` methods.
+`fadein() / fadeout()` | To fade in and out selected element.
+`fadeToggle()` | Toggle between `fadein()` and `fadeout()` methods.
+`delay()` | Delay the executions of functions in the queue.
 
 ### What is DOM ?
 
@@ -254,3 +266,18 @@ hasClass('class_name') | Check if class is present in selected element.
 addClass('class_name') | Add a class to selected element.
 removeClass('class_name') | Remove class from selected element.
 toggleClass('class_name') | Adds the class if not present and removes the class if present.
+
+### How to bind and unbind event ?
+
+Using `bind()`
+- `$(selector).bind(eventType, eventData, handlerFunction);`
+- `eventType` : JavaScript event types ( `click`, `hover`, `keydown`, etc. )
+- `eventData` : The data to be passed to event handler function.
+- `handlerFunction` : The operation to execute when the event is triggered.
+
+Using event method directly.
+- `$(selector).click(handlerFunction);`     
+- `$(selector).hover(handlerFunction);`
+
+Remove event handlers
+- `$(selector).unbind(eventType, handlerFunction);`
