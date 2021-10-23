@@ -2,10 +2,13 @@
 
 - `Fast`, `easy` and `feature rich` client side JavaScript library.
 - `JavaScript` is a language while `JQuery` is a built in `Library`.
+- `JQuery` simplifies javascript, animations, ajax and DOM.
 - Cross platform and supports different types of `Browsers`.
 - `jQuery` only works for `HTML` document and not for `XML` document.
 
 ![jQuery](Image/jQuery.png)
+
+![jQuery](Image/Event.png)
 
 ### What is $() in JQuery ?
 
@@ -44,10 +47,10 @@ $("p").css("color","pink");
 - There are several companies that provide free public CDN's. (`Google`, `Microsoft` and `Yahoo`)
 - `Microsoft` loads jQuery from `AJAX` CDN.
 - `Google` loads jQuery from Google libraries `API`.
-- e.g. We use JavaScript, CSS, Bootstrap and JQuery CDN links instead of downloading the zip files.
+- e.g. We use JavaScript, CSS, Bootstrap and JQuery libraries CDN links instead of downloading the zip files.
 
 ```javascript
-\\ CDN : Source code link which we copy directly from it's official website
+\\ CDN : jQuery library link which we copy directly from it's official website
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 ```
