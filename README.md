@@ -156,11 +156,15 @@ const pi = 3.14
 <script src='index.js'></script>  
 ```
   
-- In same way CSS is also written on another page it is just called on html page.
+- In same way `CSS` is also written on another page it is just called on `HTML` page.
 - It helps to keep the page clean. 
  
 ### What is Hoisting ?
+
 - `Default` bahaviour of `JavaScript` where all the `variables` and `functions` declarations are moved on the top. 
+- Irrespective of where the `variables` and `functions` are declared, they are moved to `top` of the scope.
+
+![Hoisting](Image/Hoisting.png)
 
 ### Difference between "==" and "==="
 
